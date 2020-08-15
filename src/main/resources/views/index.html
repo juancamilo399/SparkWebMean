@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col" style="text-align: center">
+            <h2>Statistic Calculator</h2>
+            <p>Calculator for the median and standard deviation</p>
+        </div>
+    </div>
+
+    <div class="row" style="width: 50%;margin: auto;" >
+        <div class="col" >
+            <div class="form-group">
+                <label for="inputnumbers">Enter the numbers:</label>
+                <input class="form-control" id="inputnumbers">
+                <small  class="form-text">Separate data by commas</small></br>
+                <input id="button-calculator" type="submit" value="calculate" class="btn btn-primary" >
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row" style="width: 50%;margin: auto;" >
+        <div class="col">
+            <table class="table table-sm table-bordered" id="datatable" style="float: left;">
+                <thead>
+                <tr>
+                    <th scope="col">Numbers</th>
+                </tr>
+                </thead>
+                <tbody id="tablebody"></tbody>
+            </table>
+            </br>
+            <p id="tablefooter"> </p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+<script src="/js/app.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+</html>

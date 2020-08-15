@@ -5,6 +5,8 @@ import edu.escuelaing.arep.utilities.LinkedList;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.Arrays;
+import java.util.List;
 
 
 /**
@@ -87,5 +89,19 @@ public class App
         double ans = Math.sqrt(sum/(linkedList.getSize()-1));
 
         return (double)Math.round(ans * 100d) / 100d;
+    }
+
+    public static String calculate(String numbers){
+        LinkedList<Double> myLinkedList = new LinkedList<Double>();
+        List<String> stringList = Arrays.asList(numbers.split(","));
+        for (String string : stringList) {
+            double value = Double.parseDouble(string);
+            myLinkedList.add(value);
+        }
+
+        double mean = (double)Math.round(mean(myLinkedList)*100d)/100d;
+        double std = (double)Math.round(standardDeviation(myLinkedList)*100d)/100d;
+        String json = "{\"mean\":"+mean+",\"std\":"+std+"}";
+        return json;
     }
 }
