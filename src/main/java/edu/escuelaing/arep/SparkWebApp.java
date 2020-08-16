@@ -3,12 +3,18 @@ package edu.escuelaing.arep;
 import com.google.gson.Gson;
 import edu.escuelaing.arep.calculator.App;
 import static spark.Spark.*;
+
+/**
+ * Web Spark app class
+ * @author Juan Camilo Angel Hernandez
+ */
 public class SparkWebApp {
 
     public static void main(String[] args) {
         port(getPort());
         staticFiles.location("/views");
         Gson gson = new Gson();
+
         get("/calculator", (request, response) -> {
             response.redirect("/index.html");
             response.status(200);

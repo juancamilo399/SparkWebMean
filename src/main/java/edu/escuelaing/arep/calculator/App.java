@@ -93,8 +93,8 @@ public class App
 
     /**
      * Generate the json format of the mean and standard deviation
-     * @param numbers The values of 
-     * @return
+     * @param numbers The values of the numbers that the user entry
+     * @return The json format of the mean and standard deviation
      */
     public static String calculate(String numbers){
         LinkedList<Double> myLinkedList = new LinkedList<Double>();

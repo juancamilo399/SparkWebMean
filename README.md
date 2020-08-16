@@ -2,7 +2,7 @@
 Web application using Spark that allow calculate the mean and standard deviation of a set of n real numbers that are entered by the user through a web page. The set of the n real numbers are stored in a own linked list implementation.
 
 ![Heroku](https://pyheroku-badge.herokuapp.com/?app=arep-median-spark&style=flat)
-[![CircleCI](https://circleci.com/gh/juancamilo399/SparkWebMedian.svg?style=svg)](https://app.circleci.com/pipelines/github/juancamilo399/SparkWebMedian)
+[![CircleCI](https://circleci.com/gh/juancamilo399/SparkWebMean.svg?style=svg)](https://app.circleci.com/pipelines/github/juancamilo399/SparkWebMean)
 
 Application deployed in heroku: [here](https://arep-median-spark.herokuapp.com/)
 
