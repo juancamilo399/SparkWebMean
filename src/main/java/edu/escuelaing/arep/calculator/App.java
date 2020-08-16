@@ -91,6 +91,11 @@ public class App
         return (double)Math.round(ans * 100d) / 100d;
     }
 
+    /**
+     * Generate the json format of the mean and standard deviation
+     * @param numbers The values of 
+     * @return
+     */
     public static String calculate(String numbers){
         LinkedList<Double> myLinkedList = new LinkedList<Double>();
         List<String> stringList = Arrays.asList(numbers.split(","));
