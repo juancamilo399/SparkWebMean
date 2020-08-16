@@ -4,7 +4,6 @@ console.log(button);
 button.addEventListener('click', function () {
     var numbers = document.getElementById('inputnumbers').value;
     var numbers_list = numbers.split(",");
-    var table = $('#datatable');
     $('#tablebody').empty();
     $('#tablefooter').empty();
     for (i = 0; i < numbers_list.length; i++) {
