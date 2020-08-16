@@ -23,7 +23,7 @@ The following instructions will allow you to have a copy of the project and run 
 1. Clone the repository
 
 ```
-git clone https://github.com/juancamilo399/SparkWebMedian.git
+git clone https://github.com/juancamilo399/SparkWebMean.git
 ```
 
 2. Compile the projet
