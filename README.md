@@ -60,6 +60,7 @@ The documentation will be generated in target/site/apidocs/index.html.
 
 ## Documentation
 
+View [Documentation](https://juancamilo399.github.io/SparkWebMean/apidocs/index.html)
 
 ## Running the tests
 
