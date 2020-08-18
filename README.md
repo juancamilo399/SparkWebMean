@@ -70,6 +70,12 @@ To run the unit tests
 mvn test
 ```
 
+## Deploy
+
+![deploy](resources/img/deploy.png)
+
+In the previous image we can see the deployment diagram, first the user accesses the application using a web browser where it communicates with the application which is hosted in heroku, once inside he will be shown the web page created, this is thanks to the spark app since it is responsible for determining the behavior of different client requests, then the user will insert the data to perform and display the calculations using an API along with the help of a LinkedList.
+
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
