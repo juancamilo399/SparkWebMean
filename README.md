@@ -84,7 +84,7 @@ In the previous image we can see the deployment diagram, first the user accesses
 
 ## Inform
 
-
+[View inform](resources/arep2.pdf)
 
 ## Author
 
